@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js",
+    "dev": "chokidar 'index.js' -c 'clear && node index.js'"
   },
   "dependencies": {
-    "got": "6.3.0"
+    "got": "6.3.0",
+    "mz": "2.4.0"
   },
   "devDependencies": {
     "chokidar-cli": "1.2.0",
