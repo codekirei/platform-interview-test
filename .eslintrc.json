@@ -1,0 +1,6 @@
+{
+  "extends": "kirei-es6",
+  "env": {
+    "node": true
+  }
+}

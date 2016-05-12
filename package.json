@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "got": "6.3.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "1.2.0",
+    "eslint": "2.9.0",
+    "eslint-config-kirei-es6": "0.2.1"
+  }
+}
